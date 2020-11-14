@@ -1,3 +1,4 @@
 window.onload = function() {
-    alert("Hi There!");
+    const canvas = document.getElementById("canvas");
+    console.log(canvas);
 }
