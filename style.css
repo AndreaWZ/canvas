@@ -1,3 +1,9 @@
 body {
     background-color: bisque
 }
+
+#canvas {
+    width: 500px;
+    height: 300px;
+    border:1px solid #c3c3c3;
+}
