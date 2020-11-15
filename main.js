@@ -9,7 +9,7 @@ window.onload = function() {
         let x = event.clientX;
         let y = event.clientY;
 
-        c.fillRect(x, y, 10, 10); // **--> c.fillReact(x, y, width, height);
+        c.fillRect(x, y, 20, 20); // **--> c.fillReact(x, y, width, height);
         let gradient = c.createLinearGradient(0, 0, canvas.width, canvas.height);
         gradient.addColorStop(0, 'red');
         gradient.addColorStop(0.1, 'orange');
